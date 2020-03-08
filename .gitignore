@@ -5,6 +5,7 @@
 *.so
 *.dylib
 
+request_producer
 # Test binary, built with `go test -c`
 *.test
 
