@@ -6,4 +6,4 @@ ENV SRC_DIR=/go/src/github.com/danbrummett/request_producer/
 ADD . $SRC_DIR
 RUN apk update && apk add git; cd $SRC_DIR; go get; go build -o request_producer; cp request_producer /app/
 
-CMD "echo hi"
+CMD "echo BUILD COMPLETE"
